@@ -19,7 +19,7 @@ category_list=category_list['personList']['personsLists']
 
 ## Dataset related to world countries per capita GDP
 # source -> https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG
-world_GDP = pd.read_csv("original_data/world_GDP1.csv")
+world_GDP = pd.read_csv("original_data/world_GDP.csv")
 world_GDP=world_GDP[['Country Name','2014','2015','2016','2017','2018','2019','2020','2021']]
 print(f"world_GDP\n{world_GDP.head(7)}\n")
 
