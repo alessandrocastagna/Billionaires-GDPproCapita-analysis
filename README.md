@@ -23,7 +23,7 @@ _____________________________
  
 - All the dataset are into exported and final folders.
 - Each file contains all the transformations done on that specific dataset.
-- We create a [main file][] which you can run for compute all the files toghether.
-- The modified datasets have been merged toghether into MongoDB (a no relational database which store files into json format). (check the pipeline [here][])
-- The final dataset obtained has been used for answer to the three research questions.(check [here][] for the results)
+- We create a file which you can run for compute all the files toghether.
+- The modified datasets have been merged toghether into MongoDB (a no relational database which store files into json format).
+- The final dataset obtained has been used for answer to the three research questions.
 
